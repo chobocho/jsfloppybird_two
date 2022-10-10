@@ -11,7 +11,7 @@ def main(filepath):
 
     image_file = {}
     for file in filelist:
-        if '.png' in file or '.jpg' in file:
+        if '.png' in file or '.jpg' in file or '.jpeg' in file:
             # print(file, os.path.isfile(file))
             image_file[file] = image2base64(file)
 
